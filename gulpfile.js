@@ -39,6 +39,8 @@ let copyUnprocessedAssetsForProd = () => {
     return src([
         `*.*`,
         `**`,
+        `!dev/`,
+        `!dev/**`,
         `!node_modules/`,
         `!node_modules/**`,
         `!*.html`,

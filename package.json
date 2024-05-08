@@ -9,6 +9,7 @@
   "author": "will pitney",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.24.5",
     "browser-sync": "^3.0.2",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
